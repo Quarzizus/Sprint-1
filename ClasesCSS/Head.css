@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body > #MenuHead,
+#IntroHead {
+  padding: 0px 100px;
+  width: 1440px;
+}
+#MenuHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  color: #ffffff;
+  opacity: 100%;
+}
+#MenuHead ul > li {
+  display: inline;
+  margin-left: 48px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-transform: uppercase; /*Me pone todo en mayusculas*/
+}
+
+#World {
+  text-decoration: line-through;
+}
+#Punto {
+  color: #0000ec;
+}
+
+#IntroHead h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 64px;
+  color: #060a24;
+  letter-spacing: 0;
+  height: 84px;
+  align-items: center;
+}
+#IntroHead p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  width: 628px;
+  margin-bottom: 56px;
+}
+#IntroHead button {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+
+  width: 226px;
+  height: 56px;
+  background-color: #00f3bb;
+
+  text-transform: uppercase; /*Pone el texto en mayuscula*/
+  font-weight: 700; /*Pone el texto en negrilla*/
+}
+#IntroHead {
+  margin: 120px 0px 0px 100px;
+}
